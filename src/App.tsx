@@ -26,6 +26,8 @@ export const App = () => {
     window.gtag("event", "5475_get_sub", {
       variant_name: "5475_1",
     });
+    LS.setItem(LSKeys.ShowThx, true);
+    setThx(true);
   };
 
   const submit = () => {
